@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    font-family: Roboto, sans-serif;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-1 {
+    height: 100%;
+    background-image: url('images/star.jpg');
+}
+
+.img-2 {
+    height: 50%;
+    background-image: url('images/vancouver.jpg');
+}
+
+.img-3 {
+    height: 50%;
+    background-image: url('images/autumn.jpg');
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.title-container h1 {
+    font-size: 7.5rem;
+}
+
+.title-container h2 {
+    font-size: 2rem;
+}
+
+.section {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.subheading {
+    font-weight: 500;
+    margin-bottom: 48px;
+    color: #82B1FF;
+    font-size: 2.5rem;
+}
+
+.body-text {
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.about-me p {
+    text-align: justify;
+}
