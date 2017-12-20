@@ -3,26 +3,14 @@ body, html {
     font-family: Roboto, sans-serif;
 }
 
-.parallax {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.img-1 {
+.parallax-window-top {
     height: 100%;
-    background-image: url('images/star.jpg');
+    background: transparent;
 }
 
-.img-2 {
+.parallax-window {
     height: 40%;
-    background-image: url('images/vancouver.jpg');
-}
-
-.img-3 {
-    height: 40%;
-    background-image: url('images/autumn.jpg');
+    background: transparent;
 }
 
 .title-container {
@@ -74,10 +62,4 @@ body, html {
 
 .contact-me {
     padding-bottom: 48px;
-}
-
-@media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll;
-    }
 }
