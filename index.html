@@ -19,30 +19,32 @@ title: Home
             <div class="container-fluid">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{ site.baseurl }}/">Home</a></li>
-                    <li><a href="{{ site.baseurl }}/resume.pdf">Resume</a></li>
+                    <li><a href="{{ site.baseurl }}/resume.pdf" target="_blank">Resume</a></li>
                     <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
                 </ul>
             </div>
         </nav>
         <div class="title title-text">
             <h1>Tiffany Jiang</h1>
-            <h2>Computer Science Student at University of Manitoba</h2>
+            <h2>Computer Science Student and Software Developer</h2>
         </div>
         <div class="bottom"></div>
     </div>
 </div>
 
-<div class="about-me section">
-    <h3 class="subheading">About Me</h3>
+<div class="section">
+    <h3 class="subheading-text">About Me</h3>
 
-    <p class="body-text">I am a fourth-year Computer Science student at the University of Manitoba in Winnipeg, Canada.
-        I am currently on my second co-op work term as a software developer at D2L.
-        I am passionate about problem solving and learning new technology, and I enjoy hacking away at programming contests such as Google Code Jam and web development projects.
-        My experiences lie in full-stack web development, including a Grails back end and Polymer web apps.
-        My goal is to make a positive impact by applying what I learned to find the best solution to technical problems.</p>
-
-    <p class="body-text">I also like to get involved in the community in my spare time. I helped found the first University chapter of the Canadian Liver Foundation in Canada.
-        Additionally, as a member of the U of M Women in Computer Science student group, I am passionate about supporting women in tech.</p>
+    <div class="about-me">
+        <img src="{{ site.baseurl }}/images/profile-pic.jpg" aria-hidden="true" class="profile-pic">
+        <div class="about-me-info">
+            <p class="body-text">{% include about-me.txt %}</p>
+            <div class="about-me-buttons">
+                <a type="button" class="btn btn-primary first-button" href="{{ site.baseurl }}/resume.pdf" target="_blank">See My Resume</a>
+                <a type="button" class="btn btn-primary" href="{{ site.baseurl }}/projects">See My Projects</a>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="parallax-window" data-parallax="scroll" data-image-src="https://www.pixelstalk.net/wp-content/uploads/2016/07/Computer-Science-Wallpapers.jpg"></div>
