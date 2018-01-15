@@ -39,26 +39,44 @@ body, html {
     font-size: 2rem;
 }
 
-.section {
-    width: 80%;
+.about-me {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    margin-top: 48px;
-    margin-bottom: 48px;
+    justify-content: center;
+}
+.profile-pic {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+.about-me-info {
+    margin-left: 48px;
+}
+.about-me-buttons {
+    margin-top: 30px;
+    display: flex;
+}
+.first-button {
+    margin-right: 10px;
 }
 
-.subheading {
-    font-weight: 500;
-    margin-bottom: 48px;
-    color: #82B1FF;
-    font-size: 2.5rem;
-}
+@media only screen and (max-width: 768px) {
+    .about-me {
+        flex-direction: column;
+    }
 
-.body-text {
-    line-height: 1.5;
-    font-weight: 300;
-    text-align: justify;
+    .about-me-info {
+        margin-left: 0;
+        margin-top: 38px;
+    }
+
+    .about-me-buttons {
+        flex-direction: column;
+        flex-grow: 0;
+    }
+
+    .first-button {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }

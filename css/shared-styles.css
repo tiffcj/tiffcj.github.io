@@ -1,0 +1,24 @@
+.section {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.subheading-text {
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 48px;
+    color: #82B1FF;
+    font-size: 2.5rem;
+}
+
+.body-text {
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: justify;
+}
