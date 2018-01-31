@@ -3,10 +3,9 @@ layout: homepage
 title: Home
 ---
 
-<script src="js/parallax.min.js"></script>
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
 
-<div class="parallax-window-top" data-parallax="scroll" data-image-src="https://www.pixelstalk.net/wp-content/uploads/2016/07/Computer-Science-Wallpapers.jpg">
+<div class="parallax">
     <div class="title-container">
         <nav class="navbar navbar-inverse top">
             <div class="container-fluid">
@@ -32,12 +31,11 @@ title: Home
         <img src="{{ site.baseurl }}/images/profile-pic.jpg" aria-hidden="true" class="profile-pic">
         <div class="about-me-info">
             <p class="body-text">{% include about-me.txt %}</p>
-            <div class="about-me-buttons">
-                <a type="button" class="btn btn-primary first-button" href="{{ site.baseurl }}/resume.pdf" target="_blank">See My Resume</a>
-                <a type="button" class="btn btn-primary" href="{{ site.baseurl }}/projects">See My Projects</a>
-            </div>
         </div>
     </div>
 </div>
 
-<div class="parallax-window" data-parallax="scroll" data-image-src="https://www.pixelstalk.net/wp-content/uploads/2016/07/Computer-Science-Wallpapers.jpg"></div>
+<div class="about-me-buttons" style="background-color:lightgrey">
+    <a type="button" class="btn btn-primary first-button" href="{{ site.baseurl }}/resume.pdf" target="_blank">See My Resume</a>
+    <a type="button" class="btn btn-primary" href="{{ site.baseurl }}/projects">See My Projects</a>
+</div>
