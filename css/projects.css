@@ -9,7 +9,6 @@
 }
 
 .body-text {
-    line-height: 1;
     text-align: left;
 }
 
@@ -27,4 +26,8 @@
 
 .line {
     margin-bottom: 30px;
+}
+
+.project-image {
+    width: 100%;
 }
