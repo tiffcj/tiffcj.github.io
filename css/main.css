@@ -1,10 +1,15 @@
 .parallax {
     background-image: url("/images/wallpaper.jpg");
-    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.full-screen {
+    height: 100%;
+}
+.quarter-screen {
+    height: 25%
 }
 
 .title-container {
@@ -47,17 +52,8 @@
 .about-me-info {
     margin-left: 48px;
 }
-
-.about-me-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:lightgrey;
-    padding-top: 48px;
-    padding-bottom: 48px;
-}
-.first-button {
-    margin-right: 10px;
+.projects-button {
+    margin-top: 20px;
 }
 
 @media only screen and (max-device-width: 1024px) {
@@ -74,15 +70,5 @@
     .about-me-info {
         margin-left: 0;
         margin-top: 38px;
-    }
-
-    .about-me-buttons {
-        flex-direction: column;
-        flex-grow: 0;
-    }
-
-    .first-button {
-        margin-right: 0;
-        margin-bottom: 10px;
     }
 }
