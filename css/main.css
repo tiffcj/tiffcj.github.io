@@ -5,26 +5,22 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.full-screen {
-    height: 100%;
+.large-screen {
+    height: 75%;
 }
-.quarter-screen {
-    height: 25%
+.small-screen {
+    height: 20%
 }
 
 .title-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100%;
 }
 .top, .bottom {
     flex: 1;
-}
-.title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .title-text {
     color: white;
@@ -52,13 +48,18 @@
 .about-me-info {
     margin-left: 48px;
 }
-.projects-button {
-    margin-top: 20px;
-}
 
 @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
+    }
+
+    .large-screen {
+        height: 50%;
+    }
+
+    .small-screen {
+        height: 15%
     }
 }
 
